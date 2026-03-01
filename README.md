@@ -1,24 +1,26 @@
-# Smart Tasks (Mobile Computing Lab)
+# Smart Tasks - Mobile Computing Lab
 
-A React Native + Expo task planner app.
+## Description
+Smart Tasks is a task management mobile application built using React Native and Expo.
 
-## What’s different vs a basic To‑Do app
-- Categories (chips)
-- Priority (Low / Medium / High)
-- Due date field
-- Filters (All / Active / Done)
-- Edit task (long‑press any task)
-- Persistent storage using AsyncStorage
+## Features
+- Add tasks
+- Edit tasks (long press)
+- Delete tasks
+- Categories
+- Priority levels
+- Due dates
+- Filtering system
+- Progress tracking
+- Local storage using AsyncStorage
 
-## Run
+## Technologies
+- React Native
+- Expo
+- JavaScript (JSX)
+- AsyncStorage
+
+## How to Run
 ```bash
 npm install
 npx expo start
-```
-Scan the QR code using **Expo Go** on your iPhone.
-
-## Controls
-- Tap checkbox: mark done/undone
-- Tap ✕: delete task
-- Long‑press item: edit task
-- Clear done: removes completed tasks
